@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "Hello, world! [4]"
+echo "Hello, world! [4---]"
