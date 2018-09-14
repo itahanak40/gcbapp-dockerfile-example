@@ -6,6 +6,7 @@ COPY /sample_test.go ./
 
 WORKDIR /go/src
 
-CMD ["go", "test", "gcbapp-dockerfile-example"]
+#CMD ["go", "test", "gcbapp-dockerfile-example"]
+RUN go test gcbapp-dockerfile-example
 
 
