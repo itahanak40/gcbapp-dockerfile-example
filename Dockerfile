@@ -8,3 +8,4 @@ WORKDIR /go/src
 
 CMD ["go", "test", "gcbapp-dockerfile-example"]
 
+
